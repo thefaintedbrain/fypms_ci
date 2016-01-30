@@ -1,0 +1,21 @@
+Virtual Hosts
+
+xampp\apache\conf\extra\httpd-vhosts 
+## Custom configuration
+NameVirtualHost *:80
+
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs"
+    ServerName localhost
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/fypms_ci"
+    ServerName fypms.local
+</VirtualHost>
+
+C:\Windows\System32\drivers\etc\hosts
+127.0.0.1       fypms.local
+
+
+
