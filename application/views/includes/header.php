@@ -15,17 +15,18 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="public/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="plugins/ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="css/AdminLTE.min.css">
+  <link rel="stylesheet" href="public/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="css/skins/skin-blue.min.css">
-  
+  <link rel="stylesheet" href="public/css/skins/skin-blue.min.css">
+   <!-- Favicon -->
+  <link rel="icon" href="public/favicon.ico" type="image/gif">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>

@@ -11,7 +11,17 @@ class Fypms extends CI_Controller{
 	}
         
         public function index (){
-            
+            $this->load->view('includes/header');
+            $this->load->view('login');
+            $this->load->view('includes/required_js');
         }
+        
+        public function login (){
+          if ($_SERVER["REQUEST_METHOD"] == "POST") {
+              
+          }  
+        }
+        
+
 }
 
